@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+
+    <title>Image Slider</title>
+</head>
+<body>
+    <h1 class="f-c">Basic Image Slider</h1>
+    <p class="text-center">A simple image slider using HTML5, CSS, and JS.</p>
+    <p class="text-center f-c">&copy; 2020 <a href="https://arsanarai.com.np/">Arsana Rai</a></p> 
+
+    <div class="text-center">
+        <img src="./img/1.jpg" id="preview" class="img-fluid" alt="Responsive image">
+        <div class="buttons">
+            <button type="button" id="previous" class="btn btn-outline-dark" onclick="previousSlide()" disabled>Previous</button>
+            <button type="button" id="next" class="btn btn-outline-dark" onclick="nextSlide()">Next</button>
+        </div>  
+    </div>
+</body>
+<script src="./js/image-slider.js"></script>
+</html>
